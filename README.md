@@ -1,24 +1,7 @@
 
 # Description
 
-This project contains End-to-End (E2E) and API tests using Playwright. 
-### The project is structured as follows:
-
-- **tests/API/**: This directory contains API test.
-  - **api.test.js**: Contains all the API tests.
-
-- **tests/E2E/config/**: This directory contains configuration files.
-  - **testData.js**: Contains test data used across the tests.
-
-- **tests/E2E/pages/**: This directory contains Page Object Model (POM) classes. Contains methods and properties specific to the page.
-  - **CartPage.js**
-  - **CheckoutInfoPage.js**
-  - **HomePage.js**
-  - **PaymentCheckoutPage.js**
-  - **PaymentInfoPage.js**
-
-- **tests/E2E/**: This directory contains test files.
-  - **academybugs.spec.js**: Contains all the positive and negative test cases
+This project features comprehensive End-to-End (E2E) and API tests implemented with Playwright, seamlessly integrated with GitHub Actions for continuous integration and deployment (CI/CD), ensuring tests run automatically with every commit.
 
 ## Getting Started
 
@@ -48,5 +31,6 @@ To get started with this project, follow these steps:
 
 - **[Process Questions](./PROCESS.md)**
 - **[Test Scenarios](./TESTSCENARIOS.md)**
+- **[Project Structure](./PROJECTSTRUCTURE.MD)**
 
 
